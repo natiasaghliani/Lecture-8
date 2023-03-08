@@ -1,0 +1,32 @@
+.container {
+	width: 1440px;
+	padding: 25px 96px 25px 95px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 100;
+	box-shadow: 1px 1px 32px 1px #000000;
+}
+
+ul {
+	width: 507px;
+	display: flex;
+	justify-content: space-between;
+}
+
+li{
+	font-size: 15px;
+	color: #303134;
+	font-weight: 400;
+}
+
+li:hover {
+	border-color: #66CDAA;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px 1px #66CDAA;
+	cursor: pointer;
+}
+
