@@ -1,12 +1,22 @@
-.container {
+.header1 {
 	width: 1440px;
+	height: 81px;
+	
+}
+
+.container {
+	margin-left: 40px;
+	width: 1360px;
+	height: 81px;
 	padding: 25px 96px 25px 95px;
 	display: flex;
+	top: 0;
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
 	z-index: 100;
 	box-shadow: 1px 1px 32px 1px #000000;
+	background-color: white;
 }
 
 ul {
@@ -29,4 +39,52 @@ li:hover {
 	box-shadow: 1px 1px 3px 1px #66CDAA;
 	cursor: pointer;
 }
+
+.s-1 {
+	margin: 0 auto;
+	background-color: lightblue;
+	background-image: url("../images/background.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	width: 1360px;
+	height: 600px;
+
+	position: relative;
+
+}
+
+h1 {
+	position: absolute;
+	top: 226px;
+	left: 504px;
+	font-size: 52px;
+	font-weight: 400;
+	color: #FFFFFF;
+
+}
+
+h1:hover {
+	color: #00CED1;
+	text-shadow: 1px #00CED1;
+}
+
+.p-h1 {
+	position: absolute;
+	top: 320px;
+	left: 523px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+.p-h1:hover {
+	color: #00CED1;
+	text-shadow: 1px #00CED1;
+}
+
+
+
+
+
 
