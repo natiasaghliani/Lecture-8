@@ -1,11 +1,12 @@
+
 .header1 {
-	width: 1440px;
+	width: 1360px;
 	height: 81px;
-	
+	margin: 0 auto;
 }
 
 .container {
-	margin-left: 40px;
+	
 	width: 1360px;
 	height: 81px;
 	padding: 25px 96px 25px 95px;
@@ -89,14 +90,13 @@ h1:hover {
 
 
 .s-2 {
-	width: 1360px;
 	margin-bottom: 100px;
 
 }
 
 .container1 {
-	width: 1170px;
 	margin: 0 auto;
+	width: 1170px;
 	margin-top: 80px;
 	display: flex;
 	justify-content: space-between;
@@ -130,7 +130,7 @@ h3 {
 .p-text {
 	color: #8D8D8D;
 	font-size: 16px;
-	font-weight: #8D8D8D;
+	font-weight: 400;
 	margin-top: 44px;
 	padding-left: 3px;
 }
